@@ -1,0 +1,11 @@
+Manifest-Version: 1.0
+Implementation-Title: cloud-eureka
+Implementation-Version: 0.0.1-SNAPSHOT
+Built-By: yy-web1
+Implementation-Vendor-Id: com.zhangxs.cloud
+Build-Jdk: 1.8.0_102
+Implementation-URL: https://projects.spring.io/spring-cloud/cloud-eure
+ ka
+Created-By: Maven Integration for Eclipse
+Implementation-Vendor: Pivotal Software, Inc.
+

@@ -1,0 +1,12 @@
+spring:
+  application:
+    name: cloudgateway  #和git里的文件名对应
+  cloud:
+    config:
+      label: master #远程仓库的分支
+      profile: pro #dev 开发环境配置文件 |  test 测试环境  |  pro 正式环境
+      discovery: 
+        enabled: true
+        serviceid: configserver
+server:
+  port: 85

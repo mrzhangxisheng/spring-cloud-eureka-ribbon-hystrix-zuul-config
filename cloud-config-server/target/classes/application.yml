@@ -1,0 +1,20 @@
+spring:
+  application:
+    name: configserver
+  cloud:
+    config:
+      server:
+        git:
+          uri: https://github.com/mrzhangxisheng/spring_cloud_config/
+          searchPaths: spring_cloud_config
+          username: 869011602@qq.com
+          password: Zxs820320.
+server:
+  port: 86
+
+eureka:
+  instance:
+    hostname: localhost
+  client:
+    serviceUrl:
+      defaultZone: http://localhost:8761/eureka/,http://localhost:8762/eureka/
